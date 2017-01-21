@@ -49,9 +49,9 @@ var start = function () {
 	   								}	
 	   							}
 // The code malfunctions after this line. I cannot get the user's input to match up to the quantity in the database and perform the 
-//appropriate calculations. I want to update the 'StockyQuantity' field by subtracting the 'number' the user inputs from the quantity
+//appropriate calculations. I want to update the 'StockQuantity' field by subtracting the 'number' the user inputs from the actual quantity
 // in the database. Then use this number and multiply the cost to get the total cost. I think I need to do the connection.query first, 
-// before I place the if statement; however, I need the condition before I perform any operations. This is the error I get. My StockQuanity 
+// before I place the if statement; however, I need the condition before I perform any operations. This is the error I get. My StockQuantity 
 //field is not defined.  ?????
 
 //Which product would you like to select? Shorts
